@@ -1,0 +1,10 @@
+# Create README with the required message
+echo "new site coming soon , we are in the process of moving ... fem9992003@gmail.com" > README.md
+
+# Initialize Git and push to GitHub
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/femarse/vim.git
+git push -u origin master
